@@ -48,21 +48,11 @@ vestíveis, noções de desenvolvimento de jogos e tópicos emergentes no front-
 
 * Semana 12 - Storage Local + Dúvidas & TRABALHO III
 
-* Semana 13 - Comunicação com APIs
+* Semana 13 - Comunicação com APIs & Data Fetch
 
-* Semana 14 - Auth Context e Data Fetch
+* Semana 14 - Formulários (Formik & ReactHookForm)
 
-* Semana 15 - Formulários (Formik & ReactHookForm)
-
-* Semana 16 - Validação de tipos e gerenciamento de erros & TRABALHO IV
-
-* Semana 17 - Dúvidas e Ajuda Trabalho
-
-* Semana 18 - Dúvidas e Ajuda Trabalho
-
-* Semana 19 - Coringa
-
-* Semana 20 - Exame
+* Semana 15 - Validação de tipos e gerenciamento de erros & TRABALHO IV
 
 
 ## Quer se aprofundar?
