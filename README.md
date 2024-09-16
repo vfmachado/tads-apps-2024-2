@@ -24,7 +24,7 @@ vestíveis, noções de desenvolvimento de jogos e tópicos emergentes no front-
 
 # Aulas
 
-* Semana 01 - Apresentação da Disciplina; ReactNative & Expo setup
+* Semana 01 - Apresentação da D1isciplina; ReactNative & Expo setup
 
 * Semana 02 - React Native Crash Course; Componentes, states, props
 
