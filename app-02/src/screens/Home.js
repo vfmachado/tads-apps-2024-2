@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native"
 import Title from "../components/Title"
 import { mainStyle } from "../utils/CSS"
 import CategoryCard from "../components/CategoryCard"
-import { useCallback, useEffect, useMemo, useState } from "react"
+import React, { useCallback, useEffect, useMemo, useState } from "react"
 import { Button } from "react-native"
 import { ActivityIndicator } from "react-native"
 
@@ -84,7 +84,7 @@ export default Home = () => {
   );
 };
 
-function CompA({ click }) {
+const CompA = React.memo(({ click }) => {
   console.log('CompA renderizado');
   useEffect(() => {
     console.log('CompA montado');
@@ -100,4 +100,4 @@ function CompA({ click }) {
   
     </View>
   );
-}
+});
