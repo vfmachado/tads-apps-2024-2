@@ -67,7 +67,7 @@ export default Home = () => {
       
       {/* <Title></Title> */}
       {/* <Text style={styles.title}>Texto Titulo da Home</Text> */}
-      <Title text="HOMEE" />
+      <Title text="HOME" />
 
       {/* searchbar */}
 

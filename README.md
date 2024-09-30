@@ -30,7 +30,7 @@ vestíveis, noções de desenvolvimento de jogos e tópicos emergentes no front-
 
 * Semana 03 - UseEffect, Controle de states & TRABALHO I
 
-* Semana 04 - Core Components
+* Semana 04 - Core Components - https://reactnative.dev/docs/components-and-apis
 
 * Semana 05 - Contexts Hooks
 
