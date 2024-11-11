@@ -40,11 +40,11 @@ vestíveis, noções de desenvolvimento de jogos e tópicos emergentes no front-
 
 * Semana 08 - Navegação II & TRABALHO II
 
-* Semana 09 - CSS com Styled-Components
+* Semana 09 - CSS com Styled-Components - tem diminuido bastante o uso
 
-* Semana 10 - CSS com libs de componentes
+* Semana 10 - CSS com libs de componentes   - REACT NATIVE PAPER
 
-* Semana 11 - CSS com tailwind
+* Semana 11 - CSS com tailwind  - tem crescido muito
 
 * Semana 12 - Storage Local + Dúvidas & TRABALHO III
 
@@ -53,6 +53,19 @@ vestíveis, noções de desenvolvimento de jogos e tópicos emergentes no front-
 * Semana 14 - Formulários (Formik & ReactHookForm)
 
 * Semana 15 - Validação de tipos e gerenciamento de erros & TRABALHO IV
+
+
+PROXIMA AULA - Lista infinita.
+
+
+IMPLANTAÇAO DE UM APP (BUILD) - EXPO BUILD
+    * splash screen
+    * logo do app
+
+
+TCC - RECOMENDA RODAR WEB / ANDROID
+    salva o apk no drive e manda um qr code com o link
+    github pages
 
 
 ## Quer se aprofundar?
