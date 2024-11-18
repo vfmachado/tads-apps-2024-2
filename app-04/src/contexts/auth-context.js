@@ -18,9 +18,13 @@ const AuthProvider = ({ children }) => {
         // }
     }, []);
 
-    const login = (email, senha) => {
+    useEffect(() => {
+        // logica para quando o usuario for alterado / logar
+    }, [user]);
+
+    const login = (email, senha, cb) => {
         console.log({ email, senha})
-        setUser({ email });
+        setUser({ email }, cb);
         // AsyncStorage.setItem('@app:user', JSON.stringify({ email }));
     };
 

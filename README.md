@@ -57,6 +57,7 @@ vestíveis, noções de desenvolvimento de jogos e tópicos emergentes no front-
 
 PROXIMA AULA - Lista infinita.
 
+CAMERA / PUSH NOTIFICATION
 
 IMPLANTAÇAO DE UM APP (BUILD) - EXPO BUILD
     * splash screen

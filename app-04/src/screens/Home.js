@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { TextInput, Button, HelperText, Text, useTheme } from 'react-native-paper';
+import { AuthContext } from '../contexts/auth-context';
 
 
 export default Home = ({ navigation }) => {
+
+  const { login } = useContext(AuthContext);
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -11,7 +14,7 @@ export default Home = ({ navigation }) => {
   
   const theme = useTheme();
 
-  const handleLogin = () => {
+  const handleLogin = async () => {
     if (username === '' || password === '') {
       setError('Please enter both username and password');
       return;
@@ -19,6 +22,15 @@ export default Home = ({ navigation }) => {
     setError(null);
     
     console.log('Logging in with:', username, password);
+    
+    login(username, password, () => {
+      navigation.navigate('profile');
+    });
+    // login(username, password);
+    // setTimeout(() => {
+    //   navigation.navigate('profile');
+    // }, 200);
+    
   };
 
   return (
